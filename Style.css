@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://www.shutterstock.com/image-vector/internet-digital-syber-security-technology-260nw-1579091377.jpg);
+    background-position: cover;
+    background-size: 100%;
+}
+.app {
+    display: flex; 
+   flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+   height: auto;
+   width: fit-content;
+  border: solid black 3px;
+  justify-content: center
+ }
+ 
+ label {
+   margin: 10px 0;
+ }
+ button {
+  margin: 5px;
+  width: 400px;
+  height: 50px;
+  color: white;
+background-color:rgba(185, 19, 185, 0.24);
+  
+}
+button:hover {
+   background-color: rgb(20, 203, 118);
+}
+ .buttons{
+ 
+  display: flex;
+  justify-content: center
+ }
